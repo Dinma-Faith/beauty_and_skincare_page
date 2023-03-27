@@ -13,7 +13,7 @@ const Home = () => {
             Because You deserve the best:{" "}
           </h2>
           <br />
-          <p className="py-4 max-w-md">
+          <p className="py-4 max-w-md mt-4 md:mt-0">
             Welcome to our beauty app, where you can enhance your natural beauty
             with just a few taps. Discover a world of makeup tutorials, skincare
             tips, and personalized beauty recommendations that will help you
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={SkinHome} alt="homeskin" className=" rounded-2xl" />
+          <img src={SkinHome} alt="homeskin" className=" rounded-2xl mx-auto mt-5 md:mt-0 w-2/3 md:w-full " />
         </div>
       </div>
     </div>
