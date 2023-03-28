@@ -3,10 +3,10 @@ import AboutSkincare from "../assets/aboutSkincare.jpg";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gray-400 text-white">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+    <div name="home" className=" w-full bg-gray-400 text-white ">
+      <div className="max-w-screen-lg mx-auto flex flex-col bg-gray-400 items-center justify-center px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <p className="sm:text-2xl text-white">
+          <p className="sm:text-2xl text-white mt-10">
             {" "}
             Our beauty app is designed to help you explore, experiment and
             express your unique sense of beauty.{" "}
@@ -14,10 +14,7 @@ const Home = () => {
           <p className="py-4 max-w-md">
             We believe that everyone
             deserves to feel confident and empowered in their own skin, and
-            we're here to make that a reality. With a team of expert beauty
-            advisors and cutting-edge technology, we provide personalized
-            recommendations for skincare, makeup, and hair care that suit your
-            individual needs and preferences. Our mission is to inspire you to
+            we're here to make that a reality. Our mission is to inspire you to
             embrace your natural beauty and make self-care a daily ritual.
           </p>
 
@@ -44,7 +41,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={AboutSkincare} alt="homeskin" className=" rounded-2xl" />
+          <img src={AboutSkincare} alt="homeskin" className=" rounded-2xl mx-auto mt-20 md:mt-0 w-2/3 md:w-full " />
         </div>
       </div>
     </div>
