@@ -36,9 +36,9 @@ Run the following commands:
   docker run --name docker-container -d -p 3000:3000 container-name:latest
   
 ### Push to Docker
-  docker login
+- docker login
 - Tag your image
-  ddocker tag <tag-name> dockerUsername/tagname
+  docker tag <tag-name> dockerUsername/tagname
 - Push username/tagname
   
 ### Deployment
