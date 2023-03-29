@@ -1,33 +1,77 @@
-React App
+Beauty And SkinCare App
+
 The application is a beauty and skincare UI app
 
 Built With
 Stack: React Js and Docker
 
-Usage
+## Built With
 
+- React Js
+- Docker
+- TailWind
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Install
+  npx create-react-app .
+  sudo apt-get update
+  $ sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+
+### Usage
 Run the following commands:
-git clone 
-cd hello-rails-react
-bundle install
-bin/dev
-Open a browser and go to: https://localhost:5000 to view the app.
+  
+  git clone https://github.com/dinma-faith/beauty_and_skincare_page.git
+  cd hello-rails-react
+  npm start
 
-N/A
+### Run Docker
+- Build Image
+  docker build -t beauty_and_skincare_page:latest .
+- Run container
+  docker run --name docker-container -d -p 3000:3000 container-name:latest
+  
+### Push to Docker
+  docker login
+- Tag your image
+  ddocker tag <tag-name> dockerUsername/tagname
+- Push username/tagname
+  
+### Deployment
 
-Authors
-bust_in_silhouette Dinma-Faith
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-handshake Contributing
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@githubhandle]([https://github.com/githubhandle](https://www.github.com/dinma-faith))
+- Twitter: [@twitterhandle]([https://twitter.com/twitterhandle](https://twitter.com/p_phayte))
+- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/chidinma-faith/))
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-Show your support
-Give a star if you like this project!
+## Show your support
 
-memo License
-This project is MIT licensed.
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
