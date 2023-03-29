@@ -49,7 +49,7 @@ Run the following commands:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle](https://www.github.com/dinma-faith)
+- GitHub: [@githubhandle](https://www.github.com/dinma-faith)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle](https://twitter.com/p_phayte)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/chidinma-faith/)
 
