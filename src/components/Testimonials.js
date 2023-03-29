@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <div
       name="testimonials"
-      className="w-full bg-gray-400 text-white "
+      className="w-full bg-gray-400 text-white mt-[5%] "
     >
       <div className=" h-full px-4 md:flex ">
         <div className="flex-col md:flex-row items-center justify-center h-full md:mx-10 md:mr-10 md:w-1/2">

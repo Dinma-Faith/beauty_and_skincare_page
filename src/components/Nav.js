@@ -27,14 +27,14 @@ const Nav = () => {
     },
     {
       id: 6,
-      link: "contact",
+      link: "comment",
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gray-400 z-20 fixed">
+    <div className="flex justify-between items-center w-full h-10 px-4 text-white bg-gray-400 z-20 fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">BS</h1>
+        <h1 className="text-2xl font-signature ml-2">BS</h1>
       </div>
 
       <ul className="hidden md:flex md:">
