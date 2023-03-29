@@ -1,9 +1,6 @@
 Beauty And SkinCare App
 
-The application is a beauty and skincare UI app
-
-Built With
-Stack: React Js and Docker
+This application is a beauty and skincare UI app
 
 ## Built With
 
