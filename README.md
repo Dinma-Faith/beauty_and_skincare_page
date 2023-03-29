@@ -47,7 +47,7 @@ Run the following commands:
 
 ## Authors
 
-👤 **Author1**
+👤 **Chidinma Anyanwu**
 
 - GitHub: [@githubhandle](https://www.github.com/dinma-faith)
 - Twitter: [@twitterhandle](https://twitter.com/p_phayte)
