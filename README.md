@@ -50,8 +50,8 @@ Run the following commands:
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://www.github.com/dinma-faith)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle](https://twitter.com/p_phayte)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/chidinma-faith/)
+- Twitter: [@twitterhandle](https://twitter.com/p_phayte)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chidinma-faith/)
 
 ## 🤝 Contributing
 
