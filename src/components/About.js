@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect} from "react";
+import Aos from 'aos';
 import AboutSkincare from "../assets/aboutSkincare.jpg";
+import 'aos/dist/aos.css';
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div name="home" className=" w-full bg-gray-400 text-white ">
+    <div name="about" className=" w-full bg-gray-400 text-white ">
       <div className="max-w-screen-lg mx-auto flex flex-col bg-gray-400 items-center justify-center px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <p className="sm:text-2xl text-white mt-10">
+          <p className="sm:text-2xl text-white mt-24">
             {" "}
             Our beauty app is designed to help you explore, experiment and
             express your unique sense of beauty.{" "}
@@ -19,28 +24,27 @@ const Home = () => {
           </p>
 
           <div className="flex flex-row">
-            <button className="text-white w-fit px-6 py-3 my-2 mr-2 flex items-center rounded-md bg-green-800 cursor-pointer">
+            <button className="text-white hover:opacity-[25%] w-fit px-6 py-3 my-2 mr-2 flex items-center rounded-md bg-green-800 cursor-pointer">
               normal skin
             </button>
 
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-800 cursor-pointer">
+            <button className="text-white hover:opacity-[25%] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-800 cursor-pointer">
               dry skin
             </button>
           </div>
 
           <div className="flex flex-row">
-            <button className="text-white w-fit px-6 py-3 my-2 mr-2 flex items-center rounded-md bg-green-800 cursor-pointer">
+            <button className="text-white hover:opacity-[25%] w-fit px-6 py-3 my-2 mr-2 flex items-center rounded-md bg-green-800 cursor-pointer">
               combination skin
             </button>
 
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-800 cursor-pointer">
+            <button className="text-white hover:opacity-[25%] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-green-800 cursor-pointer">
               oily skin
-
             </button>
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <img src={AboutSkincare} alt="homeskin" className=" rounded-2xl mx-auto mt-20 md:mt-0 w-2/3 md:w-full " />
         </div>
       </div>
