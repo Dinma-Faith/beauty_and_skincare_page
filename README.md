@@ -38,7 +38,9 @@ Run the following commands:
 ### Push to Docker
 - docker login
 - Tag your image
+  
   docker tag <tag-name> dockerUsername/tagname
+  
 - Push username/tagname
   
 ### Deployment
