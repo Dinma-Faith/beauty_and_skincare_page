@@ -8,9 +8,9 @@ This application is a beauty and skincare UI app
 - Docker
 - TailWind
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://livedemo.com](https://react-skincare-app-with-dockerfile.netlify.app/)
 
 
 ## Getting Started
