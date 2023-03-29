@@ -8,9 +8,9 @@ import PreventAcne from "../assets/skindesign.png"
 
 const Recommend = () => {
   return (
-    <div name="home" className=" w-full bg-gray-400 text-white ">
+    <div name="recommendation" className=" w-full bg-gray-400 text-white ">
       <div className="max-w-screen-lg bg-gray-400 mx-auto items-center justify-center h-full px-4 md:flex-row">
-        <div className=" h-full">
+        <div className=" h-full mb-[5%]">
           <p className="text-center font-medium text-lg">
             Looking for your next beauty must-have? Look no further,we are here
             for you. With our personalized recommendations, you're sure to find
