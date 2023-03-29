@@ -10,7 +10,7 @@ This application is a beauty and skincare UI app
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com](https://react-skincare-app-with-dockerfile.netlify.app/)
+[Live Demo Link](https://react-skincare-app-with-dockerfile.netlify.app/)
 
 
 ## Getting Started
