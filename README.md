@@ -12,6 +12,10 @@ This application is a beauty and skincare UI app
 
 [Live Demo Link](https://react-skincare-app-with-dockerfile.netlify.app/)
 
+## Live Presentation
+
+[Live Presentation Link](https://www.loom.com/share/edc392c6a5474edb971fee53a07b89fb)
+
 
 ## Getting Started
 
